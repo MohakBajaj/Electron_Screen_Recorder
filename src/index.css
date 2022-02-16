@@ -1,0 +1,66 @@
+* {
+  user-select: none;
+  background: #000;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(83, 83, 83);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(20, 20, 20);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+video {
+  width: 95%;
+  aspect-ratio: 16/9;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    214deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(255, 100, 62, 1) 100%
+  );
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+}
+
+hr {
+  width: 95%;
+  border: 0;
+  height: 1px;
+  background: #fff;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
